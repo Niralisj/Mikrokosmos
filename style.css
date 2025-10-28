@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    background: #000;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    cursor: grab;
+}
+
+body:active {
+    cursor: grabbing;
+}
+
+#controls {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    backdrop-filter: blur(5px);
+    z-index: 100;
+}
+
+h3 {
+    margin: 0 0 10px 0;
+    color: #FFD700;
+    font-size: 16px;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+strong {
+    color: #87CEEB;
+}
